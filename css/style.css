@@ -1,0 +1,267 @@
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/myfont.otf);
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../images/bg.png);
+	font-family: myfont;
+}
+/* Header Starts Here */
+header {
+	background-color: #ffd500;
+}
+.custom_nav-item li {
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.custom_nav-item a {
+	font-size: 14px;
+	color: #000!important;
+	padding: 5px 25px!important;
+	border-radius: 10px;
+	transition: .5s ease;
+}
+.custom_nav-item a:hover {
+	color: #ffd500!important;
+	background-color: #000!important;
+}
+/* Header Ends Here */
+/* Banner Starts Here */
+.slider {
+	background-color: #ffd500;
+}
+.custom_tcaption {
+    position: absolute;
+    right: 15%;
+    top: 75px;
+    left: 15%;
+    color: #000;
+}
+.custom_bcaption {
+    position: absolute;
+    right: 15%;
+    bottom: 135px;
+}
+.custom_bcaption a img {
+	width: 30%;
+}
+.slider_bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.slider_bottom img {
+	width: 2%;
+}
+/* Banner Ends Here */
+/* Service Section Starts Here */
+.divider img {
+	width: 2%;
+	margin-top: 10px;
+}
+.service_content p {
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	margin-top: 70px;
+}
+.service_icons {
+	margin-top: 70px;
+}
+.service_icons img:nth-of-type(1) {
+	width: 35%;
+}
+.service_icons img:nth-of-type(2) {
+	width: 1%;
+}
+.service_icons h5 {
+	font-size: 14px;
+}
+.service_icons p {
+	font-family: OpenSans-Light;
+	font-size: 14px;
+}
+.divider_scroll {
+	margin-top: 70px;
+}
+.divider_scroll img {
+	width: 14%;
+}
+.service_title {
+	margin-top: 70px;
+}
+.service_title h1 {
+	font-size: 45px;
+}
+.service_title img {
+	width: 65%;
+}
+.works_title h1 {
+	font-size: 45px;
+	margin-top: 140px;
+}
+.works_title img {
+	width: 65%;
+}
+.works_content {
+	margin-top: 70px;
+}
+/* Service Section Ends Here */
+/* About Me Section Starts Here */
+.load_more a img {
+	width: 70%;
+	margin-top: 70px;
+}
+.about_title h1 {
+	font-size: 45px;
+	margin-top: 140px;
+}
+.about_title img {
+	width: 65%;
+}
+.about_scroll img {
+	width: 14%;
+	margin-top: 70px;
+}
+.about_content p {
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	margin-top: 140px;
+}
+.skillset {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.skillset img {
+	width: 50%;
+}
+.skillset h1 {
+	margin-top: 10px;
+}
+.skillset p {
+	font-family: OpenSans-Light;
+	font-size: 12px;
+	margin-top: 20px;
+}
+/* About Me Section Ends Here */
+/* Contact Section Starts Here */
+.contact {
+	background-image: url(../images/contact_bg.png);
+}
+.contact_form {
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.contact_form form label {
+	margin-top: 10px;
+}
+.contact_form form input {
+	width: 100%;
+	background-color: #ffd500;
+	padding-left: 5px;
+	line-height: 2.5;
+	border: none;
+	outline: none;
+	border: 3px solid #000;
+	border-radius: 15px;
+}
+.contact_form form textarea {
+	width: 100%;
+	background-color: #ffd500;
+	padding-left: 5px;
+	line-height: 2.5;
+	border: none;
+	outline: none;
+	border: 3px solid #000;
+	border-radius: 15px;
+}
+.contact_form form button {
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+	outline: none;
+	background: none;
+	margin-top: 50px;
+}
+.contact_form form button img {
+	width: 50%;
+}
+.contact_content {
+	margin-top: 70px;
+}
+.contact_title h1 {
+	font-size: 45px;
+}
+.contact_title img {
+	width: 65%;
+}
+.social_links {
+	margin-top: 50px;
+}
+.social_links a {
+	margin-right: 10px;
+}
+.social_links a img {
+	width: 10%;
+}
+.contact_address {
+	width: 50%;
+	margin-bottom: 40px;
+}
+.contact_info {
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.contact_info h5 {
+	font-size: 16px;
+}
+.contact_info p {
+	font-family: OpenSans-Light;
+	font-size: 14px;
+}
+/* Contact Section Ends Here */
+/* Footer Section Starts Here */
+footer {
+	background-image: url(../images/contact_bg.png);
+}
+.copyright_text h5 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+.footer_menu {
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+.footer_menu a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #000!important;
+	padding: 10px 20px!important;
+	border-radius: 10px;
+	transition: .5s ease;
+}
+.footer_menu a:hover {
+	color: #fff!important;
+	background-color: #000!important;
+}
+/* Footer Section Ends Here */
