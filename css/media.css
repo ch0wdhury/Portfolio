@@ -9,12 +9,374 @@
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+	/* Header Starts Here */
+	.custom_nav-item li {
+		margin-top: 15px;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	.custom_nav-item a {
+		font-size: 12px;
+		padding: 7px 20px!important;
+	}
+	/* Header Ends Here */
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: 20px;
+	    left: 15%;
+	}
+	.custom_tcaption h1 {
+	    font-size: 30px;
+	}
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 80px;
+	}
+	.custom_bcaption a img {
+		width: 35%;
+	}
+	.slider_bottom img {
+		width: 14px;
+	}
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.divider img {
+		width: 2.5px;
+		margin-top: 8px;
+	}
+	.service_content p {
+		font-size: 11px;
+		margin-top: 35px;
+	}
+	.service_icons {
+		margin-top: 35px;
+	}
+	.service_icons img:nth-of-type(1) {
+		width: 35%;
+	}
+	.service_icons img:nth-of-type(2) {
+		width: 2.5px;
+	}
+	.service_icons h5 {
+		font-size: 12px;
+	}
+	.service_icons p {
+		font-size: 11px;
+	}
+	.divider_scroll {
+		margin-top: 35px;
+	}
+	.divider_scroll img {
+		width: 14px;
+	}
+	.service_title {
+		margin-top: 35px;
+	}
+	.service_title h1 {
+		font-size: 30px;
+	}
+	.service_title img {
+		width: 70%;
+	}
+	.works_title h1 {
+		font-size: 30px;
+		margin-top: 70px;
+	}
+	.works_title img {
+		width: 70%;
+	}
+	.works_content {
+		margin-top: 35px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.load_more a img {
+		width: 55%;
+		margin-top: 35px;
+	}
+	.about_title h1 {
+		font-size: 30px;
+		margin-top: 70px;
+	}
+	.about_title img {
+		width: 70%;
+	}
+	.about_scroll img {
+		width: 14px;
+		margin-top: 50px;
+	}
+	.about_content p {
+		font-size: 11px;
+		margin-top: 70px;
+	}
+	.skillset {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.skillset img {
+		width: 40%;
+	}
+	.skillset h1 {
+		font-size: 30px;
+	}
+	.skillset h6 {
+		font-size: 12px;
+	}
+	.skillset p {
+		font-size: 8px;
+		margin-top: 15px;
+	}
+	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 60px;
+		margin-bottom: 35px;
+	}
+	.contact_form form label {
+		margin-top: 5px;
+	}
+	.contact_form form input {
+		line-height: 1.8;
+	}
+	.contact_form form textarea {
+		line-height: 1.8;
+	}
+	.contact_form form button {
+		margin-top: 25px;
+	}
+	.contact_form form button img {
+		width: 55%;
+	}
+	.contact_content {
+		margin-top: 35px;
+	}
+	.contact_title h1 {
+		font-size: 30px;
+	}
+	.contact_title img {
+		width: 70%;
+	}
+	.social_links {
+		margin-top: 35px;
+	}
+	.contact_address {
+		margin-bottom: 20px;
+	}
+	.contact_address h5 {
+		font-size: 11px;
+	}	
+	.contact_address p {
+		font-size: 8px;
+	}
+	.contact_info {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+	.contact_info h5 {
+		font-size: 12px;
+	}
+	.contact_info p {
+		font-size: 11px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 10px;
+	}
+	.footer_menu {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.footer_menu a {
+		font-size: 10px;
+		padding: 7px 8px!important;
+	}
+	/* Footer Section Ends Here */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: 40px;
+	    left: 15%;
+	}
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 125px;
+	}
+	.custom_bcaption a img {
+		width: 30%;
+	}
+	.slider_bottom img {
+		width: 19px;
+	}
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.divider img {
+		width: 3px;
+		margin-top: 10px;
+	}
+	.service_content p {
+		font-size: 14px;
+		margin-top: 50px;
+	}
+	.service_icons {
+		margin-top: 50px;
+	}
+	.service_icons img:nth-of-type(1) {
+		width: 30%;
+	}
+	.service_icons img:nth-of-type(2) {
+		width: 3px;
+	}
+	.service_icons h5 {
+		font-size: 14px;
+	}
+	.service_icons p {
+		font-size: 12px;
+	}
+	.divider_scroll {
+		margin-top: 50px;
+	}
+	.divider_scroll img {
+		width: 19px;
+	}
+	.service_title {
+		margin-top: 50px;
+	}
+	.service_title h1 {
+		font-size: 40px;
+	}
+	.service_title img {
+		width: 65%;
+	}
+	.works_title h1 {
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.works_title img {
+		width: 65%;
+	}
+	.works_content {
+		margin-top: 50px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.load_more a img {
+		width: 65%;
+		margin-top: 50px;
+	}
+	.about_title h1 {
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.about_title img {
+		width: 65%;
+	}
+	.about_scroll img {
+		width: 19px;
+		margin-top: 50px;
+	}
+	.about_content p {
+		font-size: 14px;
+		margin-top: 100px;
+	}
+	.skillset {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.skillset img {
+		width: 45%;
+	}
+	.skillset h1 {
+		font-size: 40px;
+	}
+	.skillset h6 {
+		font-size: 14px;
+	}
+	.skillset p {
+		font-size: 11px;
+		margin-top: 15px;
+	}
+	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 80px;
+		margin-bottom: 50px;
+	}
+	.contact_form form label {
+		margin-top: 10px;
+	}
+	.contact_form form input {
+		line-height: 2.2;
+	}
+	.contact_form form textarea {
+		line-height: 2.2;
+	}
+	.contact_form form button {
+		margin-top: 40px;
+	}
+	.contact_form form button img {
+		width: 50%;
+	}
+	.contact_content {
+		margin-top: 50px;
+	}
+	.contact_title h1 {
+		font-size: 40px;
+	}
+	.contact_title img {
+		width: 65%;
+	}
+	.social_links {
+		margin-top: 50px;
+	}
+	.contact_address {
+		margin-bottom: 30px;
+	}
+	.contact_address h5 {
+		font-size: 14px;
+	}	
+	.contact_address p {
+		font-size: 12px;
+	}
+	.contact_info {
+		width: 65%;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+	.contact_info h5 {
+		font-size: 14px;
+	}
+	.contact_info p {
+		font-size: 12px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		font-size: 13px;
+	}
+	.footer_menu {
+		margin-top: 32px;
+		margin-bottom: 40px;
+	}
+	.footer_menu a {
+		font-size: 13px;
+		padding: 8px 10px!important;
+	}
+	/* Footer Section Ends Here */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

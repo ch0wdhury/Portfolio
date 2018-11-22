@@ -1,3 +1,4 @@
+/* Font File Integration */
 @font-face {
     font-family: myfont;
     src: url(../fonts/myfont.otf);
@@ -10,6 +11,7 @@
     font-family: OpenSans-Regular;
     src: url(../fonts/OpenSans-Regular.ttf);
 }
+/* Font File Integration */
 
 html, body {
 	overflow-x: hidden;
@@ -22,6 +24,7 @@ body {
 	background-image: url(../images/bg.png);
 	font-family: myfont;
 }
+
 /* Header Starts Here */
 header {
 	background-color: #ffd500;
@@ -70,12 +73,12 @@ header {
 	margin: 0 auto;
 }
 .slider_bottom img {
-	width: 2%;
+	width: 22px;
 }
 /* Banner Ends Here */
 /* Service Section Starts Here */
 .divider img {
-	width: 2%;
+	width: 4px;
 	margin-top: 10px;
 }
 .service_content p {
@@ -90,7 +93,7 @@ header {
 	width: 35%;
 }
 .service_icons img:nth-of-type(2) {
-	width: 1%;
+	width: 4px;
 }
 .service_icons h5 {
 	font-size: 14px;
@@ -103,7 +106,7 @@ header {
 	margin-top: 70px;
 }
 .divider_scroll img {
-	width: 14%;
+	width: 22px;
 }
 .service_title {
 	margin-top: 70px;
@@ -138,7 +141,7 @@ header {
 	width: 65%;
 }
 .about_scroll img {
-	width: 14%;
+	width: 22px;
 	margin-top: 70px;
 }
 .about_content p {
