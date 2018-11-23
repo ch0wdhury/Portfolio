@@ -1,11 +1,201 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+	/* Header Starts Here */
+	.custom_nav-item li {
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.custom_nav-item a {
+		font-size: 14px;
+		color: #000!important;
+		padding: 5px 25px!important;
+		border-radius: 10px;
+		transition: .5s ease;
+	}
+	.custom_nav-item a:hover {
+		color: #ffd500!important;
+		background-color: #000!important;
+	}
+	/* Header Ends Here */
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: -10px;
+	    left: 15%;
+	}
+	.custom_tcaption h1 {
+	    font-size: 12px;
+	}
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 0;
+	}
+	.custom_bcaption a img {
+		width: 45%;
+	}
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.service_title {
+		margin-top: 25px;
+	}
+	.service_title img {
+		width: 65%;
+	}
+	.service_title h1 {
+		font-size: 25px;
+	}
+	.service_content p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.service_icons {
+		margin-top: 25px;
+	}
+	.service_icons h5 {
+		font-size: 12px;
+	}
+	.service_icons p {
+		font-size: 9px;
+	}
+	.works_title h1 {
+		font-size: 25px;
+		margin-top: 50px;
+	}
+	.works_title img {
+		width: 65%;
+	}
+	.works_content {
+		margin-top: 15px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.load_more a img {
+		width: 45%;
+		margin-top: 35px;
+	}
+	.about_title h1 {
+		font-size: 30px;
+		margin-top: 35px;
+	}
+	.about_title img {
+		width: 70%;
+	}
+	.about_content p {
+		font-size: 11px;
+		margin-top: 10px;
+	}
+	.skillset {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.skillset img {
+		margin-top: 30px;
+	}
+	.skillset h1 {
+		font-size: 25px;
+	}
+	.skillset h6 {
+		font-size: 12px;
+	}
+	.skillset p {
+		font-size: 8px;
+		margin-top: 10px;
+	}
+	/* About Me Section Ends Here */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+	/* Banner Starts Here */
+	.custom_tcaption {
+	    position: absolute;
+	    right: 15%;
+	    top: 0;
+	    left: 15%;
+	}
+	.custom_tcaption h1 {
+	    font-size: 24px;
+	}
+	.custom_bcaption {
+	    position: absolute;
+	    right: 15%;
+	    bottom: 0;
+	}
+	.custom_bcaption a img {
+		width: 50%;
+	}
+	/* Banner Ends Here */
+	/* Service Section Starts Here */
+	.service_title {
+		margin-top: 35px;
+	}
+	.service_title img {
+		width: 40%;
+	}
+	.service_title h1 {
+		font-size: 28px;
+	}
+	.service_content p {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	.service_icons {
+		margin-top: 30px;
+	}
+	.service_icons h5 {
+		font-size: 15px;
+	}
+	.service_icons p {
+		font-size: 12px;
+	}
+	.works_title h1 {
+		font-size: 28px;
+		margin-top: 35px;
+	}
+	.works_title img {
+		width: 40%;
+	}
+	.works_content {
+		margin-top: 15px;
+	}
+	/* Service Section Ends Here */
+	/* About Me Section Starts Here */
+	.load_more a img {
+		width: 50%;
+		margin-top: 35px;
+	}
+	.about_title h1 {
+		font-size: 28px;
+		margin-top: 35px;
+	}
+	.about_title img {
+		width: 40%;
+	}
+	.about_content p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.skillset {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.skillset img {
+		margin-top: 5px;
+	}
+	.skillset h1 {
+		font-size: 28px;
+	}
+	.skillset h6 {
+		font-size: 14px;
+	}
+	.skillset p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	/* About Me Section Ends Here */
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
