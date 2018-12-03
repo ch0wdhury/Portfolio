@@ -18,7 +18,7 @@
   <body>
 	<!-- Header Starts Here -->
 <header>
-	<div class="container">
+	<div class="container" id="scrolltop">
 		<nav class="navbar navbar-expand-md navbar-light">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
 					<h1>I AM</h1>
 					<h1>A WEB DESIGNER</h1>
 			  	</div>
-		      	<img class="d-block w-100 mb-4" src="images/slider-1.png" alt="First Slide">
+		      	<img class="d-block w-100 mb-4" src="images/slider-2.png" alt="First Slide">
 			    <div class="carousel-caption custom_bcaption d-block">
 					<a href="#idwhatido"><img src="images/seemorebtn.png" alt="See more"></a>
 				</div>
@@ -78,7 +78,7 @@
 					<h1>KEEP SCROLLING</h1>
 					<h1>FOR MY RECENT WORKS</h1>
 			  	</div>
-		      	<img class="d-block w-100 mb-4" src="images/slider-1.png" alt="First Slide">
+		      	<img class="d-block w-100 mb-4" src="images/slider-3.png" alt="First Slide">
 			    <div class="carousel-caption custom_bcaption d-block">
 					<a href="#idmyworks"><img src="images/seemorebtn.png" alt="See more"></a>
 				</div>
@@ -223,7 +223,7 @@
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-6">
 				<div class="works_content">
-					<a href="https://ch0wdhury.github.io/Escape/" target="_blank"><img class="img-thumbnail" src="images/Escape.jpg" alt="Escape"></a>
+					<a href="https://ch0wdhury.github.io/Tinyone/" target="_blank"><img class="img-thumbnail" src="images/tinyone.jpg" alt="Tinyone"></a>
 				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-6">
@@ -346,7 +346,7 @@
 <section class="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-6 col-lg-6 col-md-6">
+			<div class="col-xl-6 col-lg-6 col-md-6 d-md-block d-sm-none d-none">
 				<!-- Contact Form -->
 				<div class="contact_form">
 					<form action="#" method="post">
@@ -367,7 +367,7 @@
 				</div>
 				<!-- Contact Form -->
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6">
+			<div class="col-xl-6 col-lg-6 col-md-6 d-md-block d-sm-none d-none">
 				<!-- Contact Header & Social Links -->
 				<div class="contact_content">
 					<div class="contact_title text-center">
@@ -407,6 +407,71 @@
 				</div>
 			</div>
 		</div>
+		<!-- Contact For Small & Extra Small Devices -->
+		<div class="row">
+			<div class="col-12 d-md-none d-sm-block d-block">
+				<!-- Contact Form -->
+				<div class="contact_form">
+				<!-- Contact Header -->
+					<div class="contact_title text-left">
+						<h1 id="idcontact">CONTACT</h1>
+						<img src="images/underline.png" alt="Underline">
+					</div>
+					<form action="#" method="post">
+						<label for="name">Name:</label>
+						<br>
+						<input type="name" id="name">
+						<br>
+						<label for="email">Email:</label>
+						<br>
+						<input type="email" id="email">
+						<br>
+						<label for="message">Message:</label>
+						<br>
+						<textarea id="message" rows="5"></textarea>
+						<br>
+						<button type="submit"><img src="images/sendbtn.png" alt="Send"></button>
+					</form>
+				</div>
+				<!-- Contact Form -->
+			</div>
+			<div class="col-12 d-md-none d-sm-block d-block">
+				<div class="contact_content">
+					<!-- Contact Informations -->
+					<div class="contact_info text-left">
+						<div class="contact_address">
+							<h5>ADDRESS:</h5>
+							<p>UTTARA, DHAKA 1230, BANGLADESH</p>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-6 text-left">
+								<div class="contact_phone">
+									<h5>PHONE:</h5>
+									<p>+880 1715 - 043 - XXX</p>
+								</div>
+							</div>
+							<div class="col-6 text-sm-right text-left">
+								<div class="contact_email">
+									<h5>EMAIL:</h5>
+									<p>ashiq.ali.chowdhury@gmail.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Contact Informations -->
+				<!-- Contact Social Links -->
+					<div class="social_links text-center">
+						<a href="#"><img src="images/facebook-ico.png" alt="Facebook"></a>
+						<a href="#"><img src="images/twitter-ico.png" alt="Twitter"></a>
+						<a href="#"><img src="images/google-ico.png" alt="Google"></a>
+						<a href="#"><img src="images/pinterest-ico.png" alt="Pinterest"></a>
+						<a href="#"><img src="images/linkdin-ico.png" alt="LinkdIn"></a>
+					</div>
+				<!-- Contact Social Links -->
+				</div>
+			</div>
+		</div>
+		<!-- Contact For Small & Extra Small Devices -->
 	</div>
 </section>
 	<!-- Contact Section Ends Here -->
@@ -414,12 +479,12 @@
 <footer>
 	<div class="container">
 		<div class="row no-gutters">
-			<div class="col-xl-5 col-lg-5 col-md-5">
+			<div class="col-xl-5 col-lg-5 col-md-5 d-md-block d-sm-none d-none">
 				<div class="copyright_text">
 					<h5>COPYRIGHT 2018 &copy; BY ASHIQ ALI CHOWDHURY</h5>
 				</div>
 			</div>
-			<div class="col-xl-7 col-lg-7 col-md-7 text-right">
+			<div class="col-xl-7 col-lg-7 col-md-7 d-md-block d-sm-none d-none text-right">
 				<div class="footer_menu">
 					<ul class="list-inline m-0">
 				      <li class="list-inline-item">
@@ -441,6 +506,47 @@
 				</div>
 			</div>
 		</div>
+		<!-- Footer For Small & Extra Small Devices -->
+		<div class="row no-gutters">
+			<div class="col-12 d-md-none d-sm-block d-block text-center">
+				<div class="footer_menu">
+					<div class="row">
+						<div class="col-6">
+							<ul class="list-unstyled text-left">
+						      <li>
+						        <a href="index.html">HOME</a>
+						      </li>
+						      <li>
+						        <a href="#idwhatido">WHAT I DO</a>
+						      </li>
+						      <li>
+						        <a href="#idmyworks">MY WORK</a>
+						      </li>
+						    </ul>
+						</div>
+						<div class="col-6">
+							<ul class="list-unstyled text-right">
+						      <li>
+						        <a href="#idabout">ABOUT</a>
+						      </li>
+						      <li>
+						        <a href="#idcontact">CONTACT</a>
+						      </li>
+						      <li>
+						        <a href="#scrolltop">SROLL TOP</a>
+						      </li>
+						    </ul>
+						</div>
+				    </div>
+				</div>
+			</div>
+			<div class="col-12 d-md-none d-sm-block d-block text-center">
+				<div class="copyright_text">
+					<h5>COPYRIGHT 2018 &copy; BY ASHIQ ALI CHOWDHURY</h5>
+				</div>
+			</div>
+		</div>
+		<!-- Footer For Small & Extra Small Devices -->
 	</div>
 </footer>
 	<!-- Footer Section Ends Here -->

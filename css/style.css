@@ -60,7 +60,7 @@ header {
 .custom_bcaption {
     position: absolute;
     right: 15%;
-    bottom: 135px;
+    bottom: 115px;
 }
 .custom_bcaption a img {
 	width: 30%;
@@ -161,7 +161,7 @@ header {
 }
 .skillset p {
 	font-family: OpenSans-Light;
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 20px;
 }
 /* About Me Section Ends Here */

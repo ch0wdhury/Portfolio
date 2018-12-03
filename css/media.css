@@ -2,20 +2,14 @@
 @media (max-width: 575.98px) {
 	/* Header Starts Here */
 	.custom_nav-item li {
-		margin-top: 20px;
-		margin-left: 10px;
-		margin-right: 10px;
+		width: 40%;
+		margin-top: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 	.custom_nav-item a {
 		font-size: 14px;
-		color: #000!important;
 		padding: 5px 25px!important;
-		border-radius: 10px;
-		transition: .5s ease;
-	}
-	.custom_nav-item a:hover {
-		color: #ffd500!important;
-		background-color: #000!important;
 	}
 	/* Header Ends Here */
 	/* Banner Starts Here */
@@ -26,7 +20,7 @@
 	    left: 15%;
 	}
 	.custom_tcaption h1 {
-	    font-size: 14px;
+	    font-size: 16px;
 	}
 	.custom_bcaption {
 	    position: absolute;
@@ -45,10 +39,10 @@
 		width: 55%;
 	}
 	.service_title h1 {
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.service_content p {
-		font-size: 12px;
+		font-size: 14px;
 		margin-top: 10px;
 	}
 	.service_icons {
@@ -58,10 +52,10 @@
 		font-size: 12px;
 	}
 	.service_icons p {
-		font-size: 9px;
+		font-size: 12px;
 	}
 	.works_title h1 {
-		font-size: 25px;
+		font-size: 30px;
 		margin-top: 50px;
 	}
 	.works_title img {
@@ -84,7 +78,7 @@
 		width: 55%;
 	}
 	.about_content p {
-		font-size: 11px;
+		font-size: 12px;
 		margin-top: 10px;
 	}
 	.skillset {
@@ -101,14 +95,90 @@
 		font-size: 12px;
 	}
 	.skillset p {
-		font-size: 10px;
+		font-size: 12px;
 		margin-top: 10px;
 	}
 	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+	.contact_title h1 {
+		font-size: 30px;
+	}
+	.contact_title img {
+		width: 55%;
+	}
+	.contact_form form button {
+		margin-top: 25px;
+	}
+	.contact_form form button img {
+		width: 60%;
+	}
+	.contact_content {
+		margin-top: 10px;
+	}
+	.social_links {
+		margin-top: 30px;
+	}
+	.social_links a {
+		margin-right: 10px;
+	}
+	.social_links a img {
+		width: 10%;
+	}
+	.contact_address {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.contact_info {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 0px;
+	}
+	.contact_info h5 {
+		font-size: 14px;
+	}
+	.contact_info p {
+		font-size: 12px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 10px;
+	}
+	.footer_menu {
+		margin-top: 35px;
+		margin-bottom: 5px;
+	}
+	.footer_menu ul li {
+		margin-bottom: 5px;
+	}
+	.footer_menu a {
+		font-size: 12px;
+		padding: 8px 15px!important;
+	}
+	/* Footer Section Ends Here */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	/* Header Starts Here */
+	.custom_nav-item li {
+		margin-top: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: left;
+	}
+	.custom_nav-item a {
+		width: 30%;
+		font-size: 14px;
+		padding: 5px 25px!important;
+	}
+	/* Header Ends Here */
 	/* Banner Starts Here */
 	.custom_tcaption {
 	    position: absolute;
@@ -136,7 +206,7 @@
 		width: 40%;
 	}
 	.service_title h1 {
-		font-size: 28px;
+		font-size: 30px;
 	}
 	.service_content p {
 		font-size: 14px;
@@ -152,7 +222,7 @@
 		font-size: 12px;
 	}
 	.works_title h1 {
-		font-size: 28px;
+		font-size: 30px;
 		margin-top: 35px;
 	}
 	.works_title img {
@@ -168,7 +238,7 @@
 		margin-top: 35px;
 	}
 	.about_title h1 {
-		font-size: 28px;
+		font-size: 30px;
 		margin-top: 35px;
 	}
 	.about_title img {
@@ -196,6 +266,72 @@
 		margin-top: 10px;
 	}
 	/* About Me Section Ends Here */
+	/* Contact Section Starts Here */
+	.contact_form {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.contact_title h1 {
+		font-size: 30px;
+	}
+	.contact_title img {
+		width: 40%;
+	}
+	.contact_form form label {
+		margin-top: 10px;
+	}
+	.contact_form form button {
+		margin-top: 30px;
+	}
+	.contact_form form button img {
+		width: 45%;
+	}
+	.contact_content {
+		margin-top: 10px;
+	}
+	.social_links {
+		margin-top: 30px;
+	}
+	.social_links a {
+		margin-right: 10px;
+	}
+	.social_links a img {
+		width: 10%;
+	}
+	.contact_address {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.contact_info {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 0px;
+	}
+	.contact_info h5 {
+		font-size: 16px;
+	}
+	.contact_info p {
+		font-size: 14px;
+	}
+	/* Contact Section Ends Here */
+	/* Footer Section Starts Here */
+	.copyright_text h5 {
+		margin-top: 15px;
+		margin-bottom: 35px;
+		font-size: 14px;
+	}
+	.footer_menu {
+		margin-top: 35px;
+		margin-bottom: 10px;
+	}
+	.footer_menu ul li {
+		margin-bottom: 10px;
+	}
+	.footer_menu a {
+		font-size: 14px;
+		padding: 10px 20px!important;
+	}
+	/* Footer Section Ends Here */
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -223,7 +359,7 @@
 	.custom_bcaption {
 	    position: absolute;
 	    right: 15%;
-	    bottom: 80px;
+	    bottom: 57px;
 	}
 	.custom_bcaption a img {
 		width: 35%;
@@ -238,8 +374,8 @@
 		margin-top: 8px;
 	}
 	.service_content p {
-		font-size: 11px;
-		margin-top: 35px;
+		font-size: 13px;
+		margin-top: 25px;
 	}
 	.service_icons {
 		margin-top: 35px;
@@ -254,7 +390,7 @@
 		font-size: 12px;
 	}
 	.service_icons p {
-		font-size: 11px;
+		font-size: 12px;
 	}
 	.divider_scroll {
 		margin-top: 35px;
@@ -299,8 +435,8 @@
 		margin-top: 50px;
 	}
 	.about_content p {
-		font-size: 11px;
-		margin-top: 70px;
+		font-size: 13px;
+		margin-top: 60px;
 	}
 	.skillset {
 		margin-top: 35px;
@@ -313,10 +449,10 @@
 		font-size: 30px;
 	}
 	.skillset h6 {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.skillset p {
-		font-size: 8px;
+		font-size: 12px;
 		margin-top: 15px;
 	}
 	/* About Me Section Ends Here */
@@ -402,7 +538,7 @@
 	.custom_bcaption {
 	    position: absolute;
 	    right: 15%;
-	    bottom: 125px;
+	    bottom: 92px;
 	}
 	.custom_bcaption a img {
 		width: 30%;
@@ -492,10 +628,10 @@
 		font-size: 40px;
 	}
 	.skillset h6 {
-		font-size: 14px;
+		font-size: 15px;
 	}
 	.skillset p {
-		font-size: 11px;
+		font-size: 12px;
 		margin-top: 15px;
 	}
 	/* About Me Section Ends Here */
