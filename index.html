@@ -605,33 +605,6 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-
-<script>
-	
-
-  $(document).ready(function(){
-
-    $("a").on('click', function(event) {
-
-      if (this.hash !== "") {
- 
-        event.preventDefault();
-
-        var hash = this.hash;
-
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-     
-          window.location.hash = hash;
-        });
-      } 
-    });
-  });
-
-
-</script>
-
- </script>
+    
   </body>
 </html>
